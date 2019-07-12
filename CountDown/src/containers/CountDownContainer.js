@@ -5,10 +5,9 @@ import { bindActionCreators } from 'redux';
 import * as CounterActions from '../actions/counterActions';
 
 class CountDownContainer extends Component {
-
+  
   constructor(props) {
     super(props);
-
   }
 
   onClickIncrementButton = () => {
